@@ -1,0 +1,97 @@
+Body{
+	font-family: 'Arial', sans;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	width: 50%;
+	padding-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: black;
+	/* background picture */
+	background-image: url('http://s966.info/library/c/cartoon-flower-garden/cartoon-flower-garden-08.jpg');
+	background-repeat:no-repeat;
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.dogContainer {
+	position: relative;
+	width: 50%;
+}
+
+.dogContainer img {
+	width: 100%;
+	height: auto;
+}
+
+.dogContainer .headButton {
+	cursor: pointer;
+	position: absolute;
+	/* change position values once we have the actual picture */
+	top: 20%;
+	left: 30%;
+	height: 70px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}
+
+.dogContainer .chinButton {
+	cursor: pointer;
+	position: absolute;
+	/* change position values once we have the actual picture */
+	top: 50%;
+	left: 28%;
+	height: 80px;
+	width: 90px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}
+.dogContainer .earLeft {
+	/* positioning goes here */
+	cursor: pointer;
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	height: 60px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}
+
+
+.dogContainer .earRight {
+	/* positioning goes here */
+	cursor: pointer;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	height: 60px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}
+
+.dogContainer .buttButton {
+	/* positioning goes here */
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 65%;
+	height: 80px;
+	width: 70px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}
+
+.dogContainer .pawButton {
+	/* positioning goes here */
+	cursor: pointer;
+	position: absolute;
+	top: 80%;
+	left: 28%;
+	height: 60px;
+	width: 120px;
+	transform: translate(-10%, -50%);
+	opacity: .5;
+}

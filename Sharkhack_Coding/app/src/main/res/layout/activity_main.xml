@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pamqian.sharkhack.MainActivity"
+    android:background="@drawable/background_garden">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="66dp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What type of animal do you want to pet?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="137dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/DOG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Dog"
+                    android:text="Dog" />
+
+                <Button
+                    android:id="@+id/SHARK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Shark"
+                    android:text="Shark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/CAT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Cat"
+                    android:text="Cat" />
+
+                <Button
+                    android:id="@+id/TURTLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Turtle"
+                    android:text="Turtle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/RANDOM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Random"
+            android:text="Random" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
